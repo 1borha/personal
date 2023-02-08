@@ -1,0 +1,73 @@
+@import './vars';
+
+.CH1 {
+  color: $text-black;
+  font-size: 56px;
+  line-height: 72.8px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+}
+
+.CH2 {
+  color: $text-black;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+}
+
+.CH3 {
+  color: $text-black;
+  font-size: 32px;
+  line-height: 41.6px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+}
+
+.CH4 {
+  color: $text-black;
+  font-size: 24px;
+  line-height: 31.2px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+}
+
+.CH5 {
+  color: $text-black;
+  font-size: 24px;
+  line-height: 31.2px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+}
+
+.CLabel {
+  color: $text-black;
+  font-size: 16px;
+  line-height: 20.8px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 600;
+}
+
+.CEyebrow {
+  color: $text-black;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+}
+
+.CBodyLarge {
+  color: $text-black;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 500;
+}
+
+.CBodyRegular {
+  color: $text-black;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 500;
+}

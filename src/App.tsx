@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './globalStyles/root.scss'
+import CButton from './UI-Kit/button/CButton'
+import CButtonGroup from './UI-Kit/buttonGroup/CButtonGroup'
+import CCheckbox from './UI-Kit/checkbox/CCheckbox'
 
-function App() {
+/**
+ * @return {JSX.Element}
+ */
+const App = (): JSX.Element => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ width: '1900px', height: '100px' }}>
+      <CButtonGroup>
+        <CButton onClick={() => console.log(1)} switchType="F" disabled={false}>
+          Deed it well
+        </CButton>
+        <CButton onClick={() => console.log(1)} switchType="C" disabled={false}>
+          Deed
+        </CButton>
+        <CButton onClick={() => console.log(1)} switchType="A" disabled={false}>
+          Deed
+        </CButton>
+        <CButton onClick={() => console.log(1)} switchType="H" disabled={false}>
+          Deed
+        </CButton>
+      </CButtonGroup>
+      <CCheckbox onClick={() => console.log(1)} text={'hello'} value={true} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
